@@ -1,0 +1,96 @@
+12:00:00 | INFO  | Api running normally
+12:00:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:00:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | ERROR | Api Error: Metric anomaly detected (value=500.00)
+12:00:00 | ERROR | Api Error: Metric anomaly detected (value=500.00)
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:00:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:01:00 | INFO  | Api running normally
+12:02:00 | ERROR | Api Error: Metric anomaly detected (value=500.00)
+12:02:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:02:00 | INFO  | Api running normally
+12:02:00 | INFO  | Api running normally
+12:02:00 | INFO  | Api running normally
+12:02:00 | INFO  | Api running normally
+12:02:00 | INFO  | Api running normally
+12:02:00 | INFO  | Api running normally
+12:02:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | INFO  | Api running normally
+12:03:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:03:00 | INFO  | Api running normally
+12:03:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | ERROR | Api Error: Metric anomaly detected (value=445.00)
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:04:00 | INFO  | Api running normally
+12:05:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:05:00 | INFO  | Api running normally
+12:05:00 | INFO  | Api running normally
+12:05:00 | INFO  | Api running normally
+12:05:00 | INFO  | Api running normally
+12:05:00 | INFO  | Api running normally
+12:05:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
+12:06:00 | WARN  | Api Warning: CPU usage slightly elevated
+12:06:00 | INFO  | Api running normally
+12:06:00 | INFO  | Api running normally
