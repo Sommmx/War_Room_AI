@@ -19,3 +19,12 @@ def metric_anomaly(df: pd.DataFrame):
             if threshold_value is not None and value > threshold_value:
                 anomalies.append(row)
     return pd.DataFrame(anomalies)
+
+
+
+def log_warn(df:pd.DataFrame):
+    warn_logs = df[df['level'].str.contains('WARN',na=False)]
+    warn = []
+    for _, row in warn_logs.iterrows():
+         warn.append(row)
+    return pd.DataFrame(warn)
