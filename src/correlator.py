@@ -1,5 +1,5 @@
 import pandas as pd
-from .config import correlation_window
+from config import correlation_window
 
 def correlate(metric_anomalies, log_anomalies):
     correlated = []

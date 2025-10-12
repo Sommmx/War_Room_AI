@@ -1,7 +1,7 @@
 import pandas as pd
 import glob
 import os
-from .config import BASE_DATE
+from config import BASE_DATE
 
 
 

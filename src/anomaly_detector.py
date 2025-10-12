@@ -1,5 +1,5 @@
 import pandas as pd
-from .config import thresholds
+from config import thresholds
 
 
 
