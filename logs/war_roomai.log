@@ -1,0 +1,61 @@
+2025-10-15 13:20:23,502 - __main__ - INFO - Logging initialized successfully
+2025-10-15 13:20:23,503 - __main__ - INFO - Starting War_RoomAI analysis pipeline
+2025-10-15 13:20:23,503 - __main__ - INFO - Loading data from directory: C:\Users\Admin\.dbclient\storage\1752578355174@@127.0.0.1@3306\War_RoomAI\src\../data
+2025-10-15 13:20:23,504 - data_loader - INFO - Loading metrics from: C:\Users\Admin\.dbclient\storage\1752578355174@@127.0.0.1@3306\War_RoomAI\src\../data\metrics.csv
+2025-10-15 13:20:23,521 - data_loader - INFO - Successfully loaded 201 metric records
+2025-10-15 13:20:23,529 - data_loader - INFO - Processed metrics data: 201 valid records
+2025-10-15 13:20:23,529 - __main__ - INFO - Successfully loaded 201 metric records
+2025-10-15 13:20:23,530 - data_loader - INFO - Loading logs from directory: C:\Users\Admin\.dbclient\storage\1752578355174@@127.0.0.1@3306\War_RoomAI\src\../data
+2025-10-15 13:20:23,531 - data_loader - INFO - Found 3 log files: ['api.log', 'database.log', 'frontend.log']
+2025-10-15 13:20:23,549 - data_loader - INFO - Successfully loaded 200 log records from 3 files
+2025-10-15 13:20:23,550 - __main__ - INFO - Successfully loaded 200 log records
+2025-10-15 13:20:23,551 - __main__ - INFO - Found 10 error-level log entries
+2025-10-15 13:20:23,551 - __main__ - INFO - Analyzing warning logs...
+2025-10-15 13:20:23,552 - anomaly_detector - INFO - Starting warning log analysis
+2025-10-15 13:20:23,552 - anomaly_detector - INFO - Analyzing 200 log records for warnings
+2025-10-15 13:20:23,554 - anomaly_detector - INFO - Found 22 warning-level log entries
+2025-10-15 13:20:23,555 - __main__ - WARNING - Found 22 warning entries
+2025-10-15 13:20:23,570 - __main__ - INFO - Detecting metric anomalies...
+2025-10-15 13:20:23,571 - anomaly_detector - INFO - Starting metric anomaly detection
+2025-10-15 13:20:23,571 - anomaly_detector - INFO - Analyzing 201 metric records for anomalies
+2025-10-15 13:20:23,584 - anomaly_detector - INFO - Metric anomaly detection completed: 19 anomalies found from 201 processed records
+2025-10-15 13:20:23,585 - __main__ - WARNING - Found 19 metric anomalies
+2025-10-15 13:20:23,600 - __main__ - INFO - Correlating metric anomalies with log errors...
+2025-10-15 13:20:23,601 - correlator - INFO - Starting correlation analysis between metric anomalies and log errors
+2025-10-15 13:20:23,601 - correlator - INFO - Correlating 19 metric anomalies with 10 log errors
+2025-10-15 13:20:23,601 - correlator - INFO - Using correlation window of 5 seconds
+2025-10-15 13:20:23,618 - correlator - INFO - Correlation analysis completed: 27 correlations found from 190 event pairs
+2025-10-15 13:20:23,619 - __main__ - INFO - Found 27 correlated events
+2025-10-15 13:20:23,619 - __main__ - INFO - Performing root cause analysis...
+2025-10-15 13:20:23,620 - root_cause - INFO - Starting root cause analysis
+2025-10-15 13:20:23,620 - root_cause - INFO - Analyzing 27 correlation records for root cause
+2025-10-15 13:20:23,622 - root_cause - INFO - Found anomalies in 3 services
+2025-10-15 13:20:23,627 - api_service - INFO - Getting recommendation for service 'api'
+2025-10-15 13:20:23,627 - api_service - INFO - Initialized RecommendationsAPI with base URL: http://localhost:5000
+2025-10-15 13:20:23,628 - api_service - INFO - Fetching recommendation for service 'api' with 13 anomalies
+2025-10-15 13:20:28,694 - api_service - WARNING - Request timeout on attempt 1: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:28,694 - api_service - ERROR - All 1 attempts failed. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:28,695 - api_service - ERROR - API call failed for service 'api': All 1 attempts failed. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:28,695 - api_service - INFO - Fallback enabled - will use local recommendations
+2025-10-15 13:20:31,736 - api_service - INFO - Using LLM recommendation for api
+2025-10-15 13:20:31,737 - root_cause - INFO - Generated recommendation for api: 13 anomalies
+2025-10-15 13:20:31,738 - api_service - INFO - Getting recommendation for service 'database'
+2025-10-15 13:20:31,738 - api_service - INFO - Initialized RecommendationsAPI with base URL: http://localhost:5000
+2025-10-15 13:20:31,739 - api_service - INFO - Fetching recommendation for service 'database' with 7 anomalies
+2025-10-15 13:20:36,784 - api_service - WARNING - Request timeout on attempt 1: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:36,784 - api_service - ERROR - All 1 attempts failed. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:36,785 - api_service - ERROR - API call failed for service 'database': All 1 attempts failed. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:36,785 - api_service - INFO - Fallback enabled - will use local recommendations
+2025-10-15 13:20:37,404 - api_service - INFO - Using LLM recommendation for database
+2025-10-15 13:20:37,405 - root_cause - INFO - Generated recommendation for database: 7 anomalies
+2025-10-15 13:20:37,405 - api_service - INFO - Getting recommendation for service 'frontend'
+2025-10-15 13:20:37,406 - api_service - INFO - Initialized RecommendationsAPI with base URL: http://localhost:5000
+2025-10-15 13:20:37,406 - api_service - INFO - Fetching recommendation for service 'frontend' with 7 anomalies
+2025-10-15 13:20:42,449 - api_service - WARNING - Request timeout on attempt 1: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:42,450 - api_service - ERROR - All 1 attempts failed. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:42,451 - api_service - ERROR - API call failed for service 'frontend': All 1 attempts failed. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=3)
+2025-10-15 13:20:42,451 - api_service - INFO - Fallback enabled - will use local recommendations
+2025-10-15 13:20:43,644 - api_service - INFO - Using LLM recommendation for frontend
+2025-10-15 13:20:43,644 - root_cause - INFO - Generated recommendation for frontend: 7 anomalies
+2025-10-15 13:20:43,646 - root_cause - INFO - Root cause analysis completed: 3 services affected, 27 total correlations
+2025-10-15 13:20:43,646 - __main__ - INFO - War_RoomAI analysis pipeline completed successfully
